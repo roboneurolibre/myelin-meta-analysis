@@ -21,13 +21,13 @@ html:
     hypothesis: true
 
 repository:
-  url                       : https://github.com/Notebook-Factory/myelin-meta-analysis  # Online location of your book
+  url: https://github.com/roboneurolibre/myelin-meta-analysis
   path_to_book              : "content"  # A path to your book's folder, relative to the repository root.
   branch                    : main  # Which branch of the repository should be used when creating links
 
 launch_buttons:
   notebook_interface: "jupyterlab"  # or "classic"
-  binderhub_url: "https://binder.conp.cloud"
+  binderhub_url: "https://binder-mcgill.conp.cloud"
   thebe: false
 
 execute:
