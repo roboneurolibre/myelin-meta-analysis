@@ -85,6 +85,47 @@ Alternatively, you can start a Binder session by clicking the badge below:
 
 </details>
 
+## 🧬 Contribute to Living Meta-Analysis
+First, make sure that your meta-analysis passes all of the exclusion criteria listed below.
+<details><summary> <b>Level 1 Exclusion Criteria</b> </font> </summary><br>
+- work relying only on MRI;
+- work relying only on histology or equivalent approach;
+- work does not compare MRI data to histology data or reports only qualitative comparisons.
+</details>
+<details><summary> <b>Level 2 Exclusion Criteria</b> </font> </summary><br>
+- studies using MRI-based measures in arbitrary units;
+- studies using measures of variation in myelin content;
+- studies using arbitrary assessment scales;
+- studies comparing absolute measures of myelin with relative measures;
+- studies reporting other quantitative measures than correlation or R^2 values;
+- studies comparing histology from one dataset and MRI from a different one.
+</details>
+<details><summary> <b>Level 3 Exclusion Criteria</b> </font> </summary><br>
+- not providing an indication of both number of subjects and number of ROIs;
+- not brain;
+- ROIs as distinct samples;
+- ROIs of only 1 voxel.
+</details>
+<details><summary> <b>Next, provide us with the following information:</b> </font> </summary><br>
+- DOI
+- First author
+- Year
+- Approach	
+- Magnetic field
+- MRI measure(s)
+- Histology/microscopy measure
+- Tissue condition
+- Human/animal
+- Condition
+- Focus	
+- Specific structure(s)
+- Comparison
+- Subjects
+- M/F
+- ROI per subject
+- Co-registration
+- Control group	
+- Notes							
 <br>
 
 <hr>
