@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ---
 **Note:**
 
-R and the metafor package are both needed to fit the mixed-effect model in `meta-analysis.ipynb` through the package rpy2. Alternatively, you can use the conda environment described in `environment.yml`.
+R and the metafor package are both needed to fit the mixed-effect model in `meta-analysis.ipynb` through the package rpy2.
 
 ---
 </details>
