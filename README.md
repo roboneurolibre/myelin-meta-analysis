@@ -65,6 +65,9 @@ To re-use your container built by repo2docker, do the following:
 ```
 docker run -it --rm -p 8888:8888 `PASTE IMAGE ID HERE` jupyter notebook --ip 0.0.0.0
 ```
+
+If `jupyter-repo2docker` does not work, you can download the Docker Image .zip file found [here](https://zenodo.org/record/6463437#.Y18pbC8r1pR) and follow the instructions. 
+
 </details>
 
 <details><summary> <b>☁️ Zero installation</b> </font> </summary><br>
