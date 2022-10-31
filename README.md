@@ -68,6 +68,10 @@ docker run -it --rm -p 8888:8888 `PASTE IMAGE ID HERE` jupyter notebook --ip 0.0
 
 If `jupyter-repo2docker` does not work, you can download the Docker Image .zip file found [here](https://zenodo.org/record/6463437#.Y18pbC8r1pR) and follow the instructions. 
 
+You can even use a volume in order to open a local (and therefore, mutable) directory in the container of interest by adding the `-v ` flag to your `docker run` command:
+
+`docker run -v PATH_TO_LOCAL_DIR:PATH_TO_LOCAL_DIR_IN_CONTAINER -it --rm -p 8888:8888 `PASTE IMAGE ID HERE` jupyter lab --ip 0.0.0.0`
+
 </details>
 
 <details><summary> <b>☁️ Zero installation</b> </font> </summary><br>
