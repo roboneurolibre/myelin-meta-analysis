@@ -1,0 +1,29 @@
+{
+	"DOI":"https://doi.org/10.3389/fnins.2022.938674",
+	"First author":"Chen",
+	"Year":"2022",
+	"Approach":"Diffusion",
+	"Magnetic field":"3",
+	"Vendor":"Siemens",
+	"MRI measure(s)":"FA, RD",
+	"Histology/microscopy measure":"Microscopy – Myelin fraction",
+	"Tissue condition":"In vivo",
+	"Human/animal":"Animal – Rat",
+	"Condition":"Healthy",
+	"Focus":"Peripheral nerve",
+	"Specific structure(s)":"Sciatic nerve",
+	"Comparison":"Pearson correlation",
+	"Subjects":"8",
+	"M/F":"8:0",
+	"ROI per subject":"2",
+	"Co-registration":"N",
+	"Control group":"N",
+	"R^2":[{
+		"MRI measure being compared to histology":"FA",
+		"Value":"0.7921"
+	},{
+		"MRI measure being compared to histology":"RD",
+		"Value":"0.7744"
+	}],
+	"Notes": "For MRI measurements, there were 6 ROIs per animal (3 ROIs / sciatic nerve x 2 sciatic nerves). For histoloy measurements, there were 2 ROIs per animal (1 ROI / sciatic nerve made by averaging the measurements from 5 images x 2 sciatic nerves). The paper reports 24 correlations between qMRI and histology measurements: 6 qMRI measurements ( 3 ROIs x 2 MRI measures ) x 4 histology measures ( 1 ROI x {POAA, POMA, TOM, DOM } ) (see Figure 6).  Here, we are reporting the most conservative correlations the RS-5 EPI ROI (reportedly better than RS-3 and RS-7): FA and DOMF, RD and DOMF (note that RD and POAA also had a R^2 of 0.7744)."
+}

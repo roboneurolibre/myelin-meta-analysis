@@ -1,0 +1,26 @@
+{
+	"DOI":"https://doi.org/10.1002/jmri.28482",
+	"First author":"Sethi",
+	"Year":"2022",
+	"Approach":"T2 relaxometry",
+	"Magnetic field":"3",
+	"Vendor":"GE",
+	"MRI measure(s)":"MWF",
+	"Histology/microscopy measure":"Immunohistochemistry - MBP",
+	"Tissue condition":"In vivo",
+	"Human/animal":"Animal – Guinea Pig",
+	"Condition":"Healthy",
+	"Focus":"Brain",
+	"Specific structure(s)":"Corpus callosum, Fornix",
+	"Comparison":"Linear regression",
+	"Subjects":"40",
+	"M/F":"14/26",
+	"ROI per subject":"2",
+	"Co-registration":"N",
+	"Control group":"N",
+	"R^2":[{
+		"MRI measure being compared to histology":"MWF",
+		"Value":"0.81"
+	}],
+	"Notes": "9 pregnant late gestation female guinea pigs and 31 foetal guinea pigs. Approximately 6 ROIs (round circles ≈1-2 pixels) were placed in the corpus callosum (CC) and 6 in the fornix (FOR). From my understanding, to compare qMRI measures to histology, the MWF and MPB staining intensity (SI) values were averaged within structure-of-interest within subject and across ROIs, such that each subject had 1 MFW and 1 MBP per structure of interest – hence, for the linear regression, there were 2 ROIs / subject. MBP signal intensity converted to optical density."
+}
