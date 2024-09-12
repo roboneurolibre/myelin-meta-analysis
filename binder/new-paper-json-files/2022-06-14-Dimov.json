@@ -1,0 +1,26 @@
+{
+	"DOI":"https://doi.org/10.3390/tomography8030127",
+	"First author":"Dimov",
+	"Year":"2022",
+	"Approach":"Other",
+	"Magnetic field":"3",
+	"Vendor":"GE",
+	"MRI measure(s)":"QSM",
+	"Histology/microscopy measure":"Immunohistochemistry - MBP",
+	"Tissue condition":"Ex vivo – Fixed",
+	"Human/animal":"Human",
+	"Condition":"Healthy",
+	"Focus":"Brain",
+	"Specific structure(s)":"Corpus callosum, Fornix",
+	"Comparison":"Linear regression",
+	"Subjects":"10",
+	"M/F":"n/a",
+	"ROI per subject":"3",
+	"Co-registration":"N",
+	"Control group":"N",
+	"R^2":[{
+		"MRI measure being compared to histology":"QSM",
+		"Value":"0.22"
+	}],
+	"Notes": "Data came from 4 brain slabs – unclear how many subjects; no other information provided for anonymity). A total of 10 lesions (across the 4 slabs) with 3 ROIs each were analyzed. The correlation coefficient had a p-value of 0.005. Each ROI was 3.34 mm, meaning that they contained more than 1 voxel  (voxel size of 0.5 mm isotropic)."
+}

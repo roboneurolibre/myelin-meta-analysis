@@ -1,0 +1,35 @@
+{
+	"DOI":"https://doi.org/10.1016/j.neuroscience.2022.06.025",
+	"First author":"Nishioka",
+	"Year":"2022",
+	"Approach":"Diffusion",
+	"Magnetic field":"11.7",
+	"Vendor":"Bruker",
+	"MRI measure(s)":"FA, MD, AD, RD",
+	"Histology/microscopy measure":"Immunohistochemistry - MBP",
+	"Tissue condition":"In vivo",
+	"Human/animal":"Animal – Mouse",
+	"Condition":"Tauopathy – frontotemporal demention (FTD) and Parkinson's disease (PD)",
+	"Focus":"Brain",
+	"Specific structure(s)":"Optic nerve",
+	"Comparison":"Pearson correlation",
+	"Subjects":"100",
+	"M/F":"50/50",
+	"ROI per subject":"2",
+	"Co-registration":"N",
+	"Control group":"N",
+	"R^2":[{
+		"MRI measure being compared to histology":"FA",
+		"Value":"0.1414"
+	},{
+		"MRI measure being compared to histology":"MD",
+		"Value":"0.5595"
+	},{
+		"MRI measure being compared to histology":"AD",
+		"Value":"0.2540"
+	},{
+		"MRI measure being compared to histology":"RD",
+		"Value":"0.5640"
+	}],
+	"Notes": "Mouse model: mutation on chrs 17 (associated with FTD and PD) causes Tau aggregation. The Superior colliculus (SC) was also examined via qMRI (but not histology). In each subject, each Optic nerve (ON) contained 18 voxels. Each ON was examined separately (hence 2 ROIs). Correlations between MBP and Diffusion measure below 0.05 for MD (p=0.005) and RD (p=0.005) and above 0.05 for FA (p=0.228) and AD (p = 0.095)."
+}
